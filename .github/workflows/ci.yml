@@ -29,3 +29,5 @@ jobs:
         run: |
           npm install remark-cli remark-preset-lint-consistent
           npx remark . --use remark-preset-lint-consistent --frail
+          npm install remark-lint-emphasis-marker
+          npx remark -- use remark --use remark-lint --use remark-lint-emphasis-marker
